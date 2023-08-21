@@ -1,4 +1,16 @@
 <?php
+echo "Default values of Uninitialized variables";
+echo "<br>"; 
+
+$unset_str = "abc";
+$unset_bool = "d";
+var_dump($unset_str);
+echo "<br>"; 
+echo($unset_bool ? "true\n":"false\n");
+
+echo "<br>"; 
+echo "<hr>";
+
 echo "Variables for Mapping fuction/method";
 echo "<br>"; 
 
