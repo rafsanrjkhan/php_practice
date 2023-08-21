@@ -1,4 +1,13 @@
 <?php
+echo "Variable variables";
+$variableName = 'foo';
+$foo = "bar";
+echo "<br>"; 
+echo $foo;
+echo "<br>"; 
+echo $variableName;
+echo "<br>"; 
+echo $$variableName; 
 
 
 echo "<br>"; 
