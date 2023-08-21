@@ -1,4 +1,16 @@
 <?php
+echo "Variables for Mapping fuction/method";
+echo "<br>"; 
+
+function add ($a, $b){
+    return $a+$b;
+}
+$funcName = "add";
+echo $funcName(2,3);
+
+echo "<br>"; 
+echo "<hr>"; 
+
 echo "Variable variables";
 $variableName = 'foo';
 $foo = "bar";
@@ -8,7 +20,8 @@ echo "<br>";
 echo $variableName;
 echo "<br>"; 
 echo $$variableName; 
-
+echo "<br>"; 
+echo ${$variableName}; 
 
 echo "<br>"; 
 echo "<hr>"; 
