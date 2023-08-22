@@ -2,8 +2,10 @@
 echo "if";
 echo "<br>";
 
-$is_cng_available = false;
-if($is_cng_available){
+$is_cng_available = true;
+$has_cng_fare = false;
+
+if($is_cng_available && $has_cng_fare){
     echo "Let's go by CNG";
 }
 
