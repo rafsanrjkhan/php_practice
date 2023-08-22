@@ -1,4 +1,15 @@
 <?php
+echo "if";
+echo "<br>";
+
+$is_cng_available = false;
+if($is_cng_available){
+    echo "Let's go by CNG";
+}
+
+echo "<br>";
+echo "<hr>";
+
 echo "Default values of Uninitialized variables";
 echo "<br>"; 
 
