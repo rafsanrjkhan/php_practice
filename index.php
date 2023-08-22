@@ -1,9 +1,45 @@
 <?php
-echo "if";
+echo "double if condition";
+echo "<br>";
+
+$name = "Rafsan";
+$age = 21;
+
+if($age >=18){
+    echo "$name are eligible for vote";
+    // 2nd condition
+    if($age >=21){
+        echo "You can marry";
+    }else {
+        echo "You can't marry";
+    }
+}else {
+    echo "$name are not eligible for vote. <br>";
+} 
+
+echo "<br>";
+echo "<hr>";
+
+echo "if -- else";
 echo "<br>";
 
 $is_cng_available = true;
 $has_cng_fare = false;
+
+if($is_cng_available && $has_cng_fare){
+    echo "Let's go by CNG";
+}else {
+    echo "Let's walk";
+}
+
+echo "<br>";
+echo "<hr>";
+
+echo "if";
+echo "<br>";
+
+$is_cng_available = true;
+$has_cng_fare = true;
 
 if($is_cng_available && $has_cng_fare){
     echo "Let's go by CNG";
