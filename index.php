@@ -7,6 +7,8 @@ $has_cng_fare = false;
 
 if($is_cng_available && $has_cng_fare){
     echo "Let's go by CNG";
+}else {
+    echo "Let's walk";
 }
 
 echo "<br>";
