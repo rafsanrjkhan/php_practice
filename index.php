@@ -1,4 +1,23 @@
 <?php
+echo "nested if";
+echo "<br>";
+
+$age = 18;  
+$nationality = "Indian";  
+//applying conditions on nationality and age  
+if ($nationality == "Indian")  
+{  
+    if ($age >= 18) {  
+        echo "Eligible to give vote";  
+    }  
+    else {    
+        echo "Not eligible to give vote";  
+    }  
+}  
+
+echo "<br>";
+echo "<hr>";
+
 echo "if - else - if";
 echo "<br>";
 
