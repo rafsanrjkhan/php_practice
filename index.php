@@ -1,11 +1,20 @@
 <?php
-echo "if -- else";
+echo "if -- else if";
 echo "<br>";
 
+$a = 2;
+$b = 2;
 
+if ($a > $b){
+    echo "a is bigger than b";
+} else if ($a == $b){
+    echo "a is equal to b";
+} else {
+    echo "a is smaller than b";
+}
 
 echo "<br>";
-echo "<hr>";
+echo "<hr>";   
 
 echo "Ternary operator - shortend if else";
 echo "<br>";
@@ -54,6 +63,15 @@ if($is_cng_available && $has_cng_fare){
     echo "Let's go by CNG";
 }else {
     echo "Let's walk";
+}
+
+echo "<br>";
+
+$num=12;  
+if($num%2==0){  
+echo "$num is even number";  
+}else{  
+echo "$num is odd number";  
 }
 
 echo "<br>";
