@@ -1,7 +1,38 @@
 <?php
+echo "break";
+echo "<br>";
+
+ $fruits = ['apple' , 'banana' , 'mango', 'orange'];
+
+foreach($fruits as $key=>$fruit){
+    if($fruit == 'mango'){
+        break;
+    }
+        echo $key.' '.$fruit; 
+        echo "<br/>";
+    
+}
+
+echo "<br>";
+
+foreach($fruits as $key=>$fruit){
+    
+        echo $key.' '.$fruit; 
+        echo "<br/>";
+        
+        if($fruit == 'mango'){
+            break;
+        }
+    
+}
+
+echo "<br>";
+echo "<hr>";
+
 echo "associative array";
 echo "<br>";
 
+// $fruits = ['apple' , 'banana' , 'orange'];
 $fruits = [
     'fruit1'=>'apple' , 
     'fruit2'=>'banana' , 
@@ -14,17 +45,36 @@ foreach($fruits as $fruit){
 }
 
 echo "<br>";
+
+// using key
+foreach($fruits as $key=>$fruit){
+    echo $key;
+    echo "<br/>";
+}
+
+
+echo "<br>";
+
+// key and fruit
+foreach($fruits as $key=>$fruit){
+    echo $key.' '.$fruit; // use '' for gap between key and fruit
+    echo "<br/>";
+}
+
+echo "<br>";
 echo "<hr>";
 
 echo "foreach loop";
 echo "<br>";
 
+// indexed array
 $fruits = ['apple' , 'banana' , 'orange'];
 
 foreach($fruits as $fruit){
     echo $fruit;
     echo "<br/>";
 }
+
 
 echo "<br>";
 echo "<hr>";
