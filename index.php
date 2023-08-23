@@ -1,4 +1,16 @@
 <?php
+echo "while loop";
+echo "<br>";
+
+$i =1;
+while ($i < 10) {
+    echo $i;
+    $i++;
+}
+
+echo "<br>";
+echo "<hr>";
+
 echo "for loop";
 echo "<br>";
 
