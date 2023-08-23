@@ -1,8 +1,25 @@
 <?php
+echo "continue";
+echo "<br>";
+
+$fruits = ['apple' , 'banana' , 'mango', 'orange'];
+
+foreach($fruits as $key=>$fruit){
+    if($fruit == 'mango'){
+        continue;
+    }
+        echo $key.' '.$fruit; 
+        echo "<br/>";
+    
+}
+
+echo "<br>";
+echo "<hr>";
+
 echo "break";
 echo "<br>";
 
- $fruits = ['apple' , 'banana' , 'mango', 'orange'];
+$fruits = ['apple' , 'banana' , 'mango', 'orange'];
 
 foreach($fruits as $key=>$fruit){
     if($fruit == 'mango'){
@@ -19,7 +36,7 @@ foreach($fruits as $key=>$fruit){
     
         echo $key.' '.$fruit; 
         echo "<br/>";
-        
+
         if($fruit == 'mango'){
             break;
         }
