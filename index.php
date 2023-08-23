@@ -1,10 +1,44 @@
 <?php
-echo "foreach";
+echo "foreach loop";
+echo "<br>";
+
+$fruits = ['apple' , 'banana' , 'orange'];
+
+foreach($fruits as $fruit){
+    echo $fruit;
+    echo "<br/>";
+}
+
+echo "<br>";
+echo "<hr>";
+
+echo "for loop";
 echo "<br>";
 
 $fruits = ['apple' , 'banana' , 'orange'];
 
 echo $fruits[2];
+echo "<br>";
+echo $fruits[0];
+echo "<br>";
+echo $fruits[1];
+echo "<hr/>";
+echo "<br>";
+
+// 2nd way
+for ($i=0; $i <3; $i++){
+    echo $fruits[$i];
+    echo "<hr/>";
+}
+echo "<br>";
+
+// 3rd way
+$clr = [ 'black' , 'white' , 'green' , 'red']; // we can insert many - don't have to change code
+$totalItem = count($clr);
+for ($i=0; $i < $totalItem; $i++){
+    echo $clr[$i];
+    echo "<br/>";
+}
 
 echo "<br>";
 echo "<hr>";
