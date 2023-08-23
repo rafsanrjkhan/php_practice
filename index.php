@@ -1,5 +1,29 @@
 <?php
-echo "double if condition";
+echo "if -- else";
+echo "<br>";
+
+
+
+echo "<br>";
+echo "<hr>";
+
+echo "Ternary operator - shortend if else";
+echo "<br>";
+
+$a = 10;
+$b = 2;
+echo ($a > $b) ? "a is greater than b" : "a is not greater than b";
+
+echo "<br>";
+
+$is_cng_available = true;
+$has_cng_fare = false;
+echo ($is_cng_available && $has_cng_fare) ? "Lets go by cng" : "Lets walk";
+
+echo "<br>";
+echo "<hr>";
+
+echo "Double if condition";
 echo "<br>";
 
 $name = "Rafsan";
