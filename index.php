@@ -1,13 +1,41 @@
 <?php
+echo "for loop";
+echo "<br>";
+
+for ($i = 1; $i < 10; $i++) {
+    echo $i;
+}
+
+echo "<br>";
+echo "<hr>";
+
 echo "php switch";
 echo "<br>";
 
-$a = 34; $b = 56; $c = 45;  
+$a = 33; $b = 56; $c = 45;  
 if ($a < $b) {  
     if ($a < $c) {  
         echo "$a is smaller than $b and $c";  
     }  
 } 
+
+echo "<br>";
+
+$colour = "black";
+switch ($colour){
+    case "red";
+        echo "the colour is red";
+        break;
+    case "blue";
+        echo "the colour is blue";
+        break;
+    case "yellow";
+        echo "the colour is yellow";
+        break;
+    case "black";
+        echo "the colour is black";
+        break;       
+}
 
 echo "<br>";
 echo "<hr>";
@@ -31,7 +59,7 @@ if ($nationality == "Indian")
 echo "<br>";
 echo "<hr>";
 
-echo "if - else - if";
+echo "mutiple if - else if";
 echo "<br>";
 
   $marks=90;      
