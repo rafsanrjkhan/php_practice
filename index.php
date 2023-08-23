@@ -1,4 +1,14 @@
 <?php
+echo "foreach";
+echo "<br>";
+
+$fruits = ['apple' , 'banana' , 'orange'];
+
+echo $fruits[2];
+
+echo "<br>";
+echo "<hr>";
+
 echo "do while";
 echo "<br>";
 
