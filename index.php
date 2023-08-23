@@ -1,4 +1,21 @@
 <?php
+echo "associative array";
+echo "<br>";
+
+$fruits = [
+    'fruit1'=>'apple' , 
+    'fruit2'=>'banana' , 
+    'fruit3'=>'orange'
+];
+
+foreach($fruits as $fruit){
+    echo $fruit;
+    echo "<br/>";
+}
+
+echo "<br>";
+echo "<hr>";
+
 echo "foreach loop";
 echo "<br>";
 
