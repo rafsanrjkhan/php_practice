@@ -1,4 +1,16 @@
 <?php
+echo "do while";
+echo "<br>";
+
+    $i = 1;
+    do {
+    echo $i;
+    $i++;
+    } while ($i < 21);
+
+echo "<br>";
+echo "<hr>";
+
 echo "while loop";
 echo "<br>";
 
